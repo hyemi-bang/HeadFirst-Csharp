@@ -53,6 +53,6 @@
             <ListBoxItem Content="5"/>
         </ComboBox>
         <Slider x:Name="smallSlider" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120" AutoToolTipPlacement="TopLeft" Maximum="5" Minimum="1" ValueChanged="smallSlider_ValueChanged"/>
-        <Slider x:Name="bigSlider" Margin="0,39,10,0" Grid.Row="2" VerticalAlignment="Top" Width="780" AutoToolTipPlacement="TopLeft" Maximum="9999999999" Minimum="1111111111" Grid.ColumnSpan="2" Height="20" Value="7183876962" HorizontalAlignment="Right" ValueChanged="bigSlider_ValueChanged"/>
+        <Slider x:Name="bigSlider" Margin="0,39,10,0" Grid.Row="2" VerticalAlignment="Top" Width="780" AutoToolTipPlacement="TopLeft" Maximum="9999999999" Minimum="0100000000" Grid.ColumnSpan="2" Height="20" Value="7183876962" HorizontalAlignment="Right" ValueChanged="bigSlider_ValueChanged"/>
     </Grid>
 </Window>
